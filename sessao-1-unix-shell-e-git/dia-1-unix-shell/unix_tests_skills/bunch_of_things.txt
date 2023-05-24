@@ -34,6 +34,7 @@ Central African Rep
 Chad
 Chile
 China
+China
 Colombia
 Comoros
 Congo
@@ -84,6 +85,7 @@ Ivory Coast
 Jamaica
 Japan
 Jordan
+Juntos somos mais fortes!
 Kazakhstan
 Kenya
 Kiribati
@@ -112,6 +114,7 @@ Marshall Islands
 Mauritania
 Mauritius
 Mexico
+México
 Micronesia
 Moldova
 Monaco
@@ -140,11 +143,10 @@ Philippines
 Poland
 Portugal
 Qatar
+Resiliência acima de tudo!
 Romania
 Russian Federation
 Rwanda
-St Kitts & Nevis
-St Lucia
 Saint Vincent & the Grenadines
 Samoa
 San Marino
@@ -163,6 +165,8 @@ South Africa
 South Sudan
 Spain
 Sri Lanka
+St Kitts & Nevis
+St Lucia
 Sudan
 Suriname
 Swaziland
@@ -194,7 +198,3 @@ Vietnam
 Yemen
 Zambia
 ZimbabweA união faz a força!
-Juntos somos mais fortes!
-Resiliência acima de tudo!
-China
-México
