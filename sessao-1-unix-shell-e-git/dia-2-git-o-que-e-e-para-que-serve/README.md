@@ -1,1 +1,1 @@
-Dia 2 - Criando um repositório
+Dia 2 - Exercícios - criando um repositório
