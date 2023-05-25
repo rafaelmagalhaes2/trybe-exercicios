@@ -2,7 +2,7 @@
 
 ## :rocket: Exercício - Introdução ao CSS
 
-1 . Crie o arquivo index.html com e cole o esqueleto abaixo;
+1 . Crie o arquivo index.html e cole o esqueleto abaixo;
         
     ex: touch index.html
         code .
