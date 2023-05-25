@@ -41,10 +41,11 @@
 
 3. Modifique a cor do texto do h1 para laranja;
 
-    ex: na class titulo ainda, modifique a cordo texto para:
-    .titulo{
-        color: orange;
-    }
+    ex: na class titulo ainda, modifique a cordo texto para
+   
+         .titulo{
+               color: orange;
+         }
 
 4. Modifique a cor de fundo da lista não ordenada;
 
