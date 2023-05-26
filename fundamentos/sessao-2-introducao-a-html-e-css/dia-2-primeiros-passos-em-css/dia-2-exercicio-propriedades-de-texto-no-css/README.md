@@ -41,12 +41,19 @@
       line-height: 20px;    
     }
     
-    /* Explorando o text-align: justify */
+    /* Explorando o text-align */
     p {
       font-weight: 600;
       font-size: 48px;
       line-height: 20px;
       text-align: justify;      
+    }
+
+    /* Explorando o text-decoration */
+    h1 {
+      font-family: sans-serif;
+      font-style: italic;
+      text-decoration: none;
     }
 
 6. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.
