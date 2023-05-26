@@ -4,44 +4,36 @@
 
 1. Modifique o font-family do h1 para sans-serif;
 
-    h1{
-      font-family: sans-serif;
-    }
+    h1 { font-family: sans-serif; }
 
 2. Deixe o parágrafo com o font-weight 600;
 
-    p {
-      font-weight: 600;    
-    }
+    p { font-weight: 600; }
 
 3. Modifique o font-size do body para 16px;
     
-    body {
-      font-size: 16px;    
-    }
+    body { font-size: 16px; }
 
 4. Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body;
 
-    p {
-      font-size: 48px;    
-    }
+    p { font-size: 48px; }
 
 5. Explore as propriedades font-style, line-height, text-align e text-decoration;
     
-    /* Explorando o font-style */
+    /* font-style */
     h1 {
       font-family: sans-serif;
       font-style: italic;
     }
     
-    /* Explorando o line-height */
+    /* line-height */
     p {
       font-weight: 600;
       font-size: 48px;
       line-height: 20px;    
     }
     
-    /* Explorando o text-align */
+    /* text-align */
     p {
       font-weight: 600;
       font-size: 48px;
@@ -49,7 +41,7 @@
       text-align: justify;      
     }
 
-    /* Explorando o text-decoration */
+    /* text-decoration */
     h1 {
       font-family: sans-serif;
       font-style: italic;
@@ -58,15 +50,13 @@
 
 6. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.
 
-    .amarelo{
-      background-color: yellow;
-    }
+    .amarelo{ background-color: yellow; }
 
-    .vermelho{
-      background-color: red;
-    }
+    .vermelho{ background-color: red; }
 
-    .marrom{
-      background-color: brown;
-    }
+    .marrom{ background-color: brown; }
+    
+## Layout HTML do exercício
+
+![sesso2-dia-2](https://github.com/rafaelmagalhaesguedes/trybe-exercicios/assets/8412507/692da090-6c25-4335-88ad-c61598f298a1)
 
