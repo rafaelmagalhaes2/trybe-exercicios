@@ -11,12 +11,20 @@
 2. Deixe o parágrafo com o font-weight 600;
 
     p {
-      font-weight: 600px;    
+      font-weight: 600;    
     }
 
 3. Modifique o font-size do body para 16px;
+    
+    body {
+      font-size: 16px;    
+    }
 
 4. Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body;
+
+    p {
+      font-size: 48px;    
+    }
 
 5. Explore as propriedades font-style, line-height, text-align e text-decoration;
 
