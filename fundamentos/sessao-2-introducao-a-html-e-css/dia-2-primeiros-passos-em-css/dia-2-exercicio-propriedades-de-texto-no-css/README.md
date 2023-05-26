@@ -4,23 +4,23 @@
 
 #### Para começar vamos criar o index.html com a estrutura abaixo
 
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <style></style>
-  </head>
-  <body>
-    <h1>Cores</h1>
-    <p>Qual é a sua cor favorita?</p>
-    <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
-    </ul>
-  </body>
-</html>
+      <!DOCTYPE html>
+      <html lang="pt-br">
+        <head>
+          <meta charset="UTF-8">
+          <title>HTML</title>
+          <style></style>
+        </head>
+        <body>
+          <h1>Cores</h1>
+          <p>Qual é a sua cor favorita?</p>
+          <ul>
+            <li>Amarelo</li>
+            <li>Vermelho</li>
+            <li>Marrom</li>
+          </ul>
+        </body>
+      </html>
 
 1. Modifique o font-family do h1 para sans-serif;
 
