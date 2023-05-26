@@ -77,7 +77,7 @@
     .marrom{ background-color: brown; }
  
  
-# Layout HTML do exercício
+# Layout final do exercício
 
 ![sesso2-dia-2](https://github.com/rafaelmagalhaesguedes/trybe-exercicios/assets/8412507/692da090-6c25-4335-88ad-c61598f298a1)
 
