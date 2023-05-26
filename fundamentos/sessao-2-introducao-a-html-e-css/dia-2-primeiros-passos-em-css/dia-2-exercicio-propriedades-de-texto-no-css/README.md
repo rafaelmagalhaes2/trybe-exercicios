@@ -40,6 +40,14 @@
       font-size: 48px;
       line-height: 20px;    
     }
+    
+    /* Explorando o text-align: justify */
+    p {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 20px;
+      text-align: justify;      
+    }
 
 6. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.
 
