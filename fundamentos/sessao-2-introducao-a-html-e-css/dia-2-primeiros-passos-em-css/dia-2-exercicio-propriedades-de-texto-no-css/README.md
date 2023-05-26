@@ -58,3 +58,15 @@
 
 6. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.
 
+    .amarelo{
+      background-color: yellow;
+    }
+
+    .vermelho{
+      background-color: red;
+    }
+
+    .marrom{
+      background-color: brown;
+    }
+
