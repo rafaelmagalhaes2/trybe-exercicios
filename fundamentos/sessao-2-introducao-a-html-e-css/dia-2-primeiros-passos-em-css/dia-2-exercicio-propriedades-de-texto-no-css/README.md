@@ -4,7 +4,15 @@
 
 1. Modifique o font-family do h1 para sans-serif;
 
+    h1{
+      font-family: sans-serif;
+    }
+
 2. Deixe o parágrafo com o font-weight 600;
+
+    p {
+      font-weight: 600px;    
+    }
 
 3. Modifique o font-size do body para 16px;
 
