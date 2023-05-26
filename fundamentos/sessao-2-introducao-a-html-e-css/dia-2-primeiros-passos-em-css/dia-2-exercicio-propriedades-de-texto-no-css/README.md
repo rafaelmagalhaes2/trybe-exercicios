@@ -27,6 +27,12 @@
     }
 
 5. Explore as propriedades font-style, line-height, text-align e text-decoration;
+    
+    /* Explorando o font-style */
+    h1 {
+      font-family: sans-serif;
+      font-style: italic;
+    }
 
 6. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.
 
