@@ -65,7 +65,7 @@
 
  1. Coloque todo o CSS da tag style em um arquivo externo.
 
-    Resp: Primiro criamos o arquivo style.css, pode ser criado via terminal com o comando
+    Resp: Primeiro criamos o arquivo style.css, pode ser criado via terminal com o comando
     touch style.css.
     Após criar o arquivo style.css, copiamos todo o códido que está entre a tag style no html abaixo
     e copiamos para o novo arquivo style.css. Salve o arquivo e volte ao html.
