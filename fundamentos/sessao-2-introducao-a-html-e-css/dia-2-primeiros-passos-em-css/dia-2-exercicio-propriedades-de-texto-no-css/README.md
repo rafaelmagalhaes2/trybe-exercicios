@@ -33,6 +33,13 @@
       font-family: sans-serif;
       font-style: italic;
     }
+    
+    /* Explorando o line-height */
+    p {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 20px;    
+    }
 
 6. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.
 
