@@ -1,6 +1,6 @@
-# Dia 3 - HTML e CSS - Seletores e Posicionamento
+# 🎯 Dia 3 - HTML e CSS - Seletores e Posicionamento
 
-## Exercício - Box model - Modelo de caixas no CSS
+## Exercício - Box model - Modelo de caixas no CSS 🚀
 
     style.css
 
@@ -51,7 +51,7 @@
         </html>
 
 
-#### 1. Alterar de acordo com as instruções dos comentários que estão dentro do arquivo style.css.
+#### ✔️ 1. Alterar de acordo com as instruções dos comentários que estão dentro do arquivo style.css.
 
     style.css alterado.
 
@@ -83,4 +83,10 @@
             border: 5px solid black;
         }
 
-#### Layout final 
+### Layout 
+
+#### Tela inicial
+![tela01](https://github.com/rafaelmagalhaesguedes/trybe-exercicios/assets/8412507/6ee811fc-4e7c-48c3-a0a8-26adbfa1dd17)
+
+#### Tela final
+![tela02](https://github.com/rafaelmagalhaesguedes/trybe-exercicios/assets/8412507/48318491-935c-4ba4-8eb4-a491ec06953f)
