@@ -13,6 +13,10 @@ sua nacionalidade e a cidade/estado onde mora;
 de utilizar classes em cada um dos elementos.
 
 
-## Resposta 
+## ✔️ Resposta
 
 #### Layout atualizado
+
+##### 🔗 https://rafaelmagalhaesguedes.github.io/portfolioweb/
+
+![portfolio_v2](https://github.com/rafaelmagalhaesguedes/trybe-exercicios/assets/8412507/d926c051-9c32-4a20-a0fb-fa8d5dedd34d)
