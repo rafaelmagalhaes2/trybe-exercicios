@@ -259,4 +259,9 @@
         .cinza h3 {
             font-style: italic;
         }
+        
+## Layout final
+
+![Captura de tela de 2023-05-28 09-00-47](https://github.com/rafaelmagalhaesguedes/trybe-exercicios/assets/8412507/526f2420-d89b-470b-a3e0-25ed8cdb70db)
+
 
