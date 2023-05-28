@@ -1,11 +1,16 @@
-.lista {
+
+ol li {
   background-color: yellow;
 }
 
-.item-2, .item-4 {
-  background-color: green;    
+ol li:nth-child(even) {
+  color: green;
 }
-
-.item-1, .item-3, .item-5 {
+  
+ol li:nth-child(odd) {
   text-transform: uppercase;
 }
+
+  
+  
+
