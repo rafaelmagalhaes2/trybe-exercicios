@@ -35,5 +35,28 @@ li em {
 .bg-rosa {
     background-color: pink;  
 }
+
+.lista li a:hover {
+  font-weight: 700;
+}
   
+.lista li a[href*="stackoverflow"] {
+  color: orange;
+}
+  
+.lista li a[href*="w3schools"] {
+  color: green;
+}
+  
+.lista li a[href*="mozilla"] {
+  color: black;
+}
+  
+.lista li a[href*="devdocs"] {
+  color: yellow;
+}
+  
+.lista li a[href*="trybe"] {  
+  color: green;
+}
 

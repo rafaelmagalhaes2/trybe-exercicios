@@ -116,10 +116,38 @@
 
 4. Na listagem de linguagens de programação, faça com que as 3 primeiras da lista possuam cor de fonte azul e, se alguma possuir “java*” no texto, utilize uma cor de fundo rosa.
 
-5. (Bônus) Para cada link na lista de aliados da pessoa desenvolvedora, faça com que ao passar o mouse sobre cada um, o texto fique em negrito e assuma a cor de fonte “temática do site”
+    .bg-rosa {
+      background-color: pink;  
+    }
+
+5. (Bônus) Para cada link na lista de aliados da pessoa desenvolvedora, faça com que ao passar o mouse sobre cada um, o texto fique em negrito e assuma a cor de fonte “temática do site”.
 
 Dica 1: Utilize o seletor :hover para controlar o passar do mouse.
 
 Dica 2: Sugestão de cores padrão. StackOverflow (laranja), W3Schools (verde), MDN (preta), DevDocs (amarela), Trybe (verde).
+
+    .lista li a:hover {
+    font-weight: 700;
+    }
+    
+    .lista li a[href*="stackoverflow"] {
+    color: orange;
+    }
+    
+    .lista li a[href*="w3schools"] {
+    color: green;
+    }
+    
+    .lista li a[href*="mozilla"] {
+    color: black;
+    }
+    
+    .lista li a[href*="devdocs"] {
+    color: yellow;
+    }
+    
+    .lista li a[href*="trybe"] {  
+    color: green;
+    }
 
 ## Layout final
