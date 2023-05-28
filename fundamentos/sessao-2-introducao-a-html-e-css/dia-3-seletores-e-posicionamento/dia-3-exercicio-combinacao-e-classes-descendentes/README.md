@@ -98,8 +98,21 @@
     }
 
 2. Faça todas as tags Header (h1, h2…) possuírem cor de fonte vermelha e, se alguma delas estiver em itálico, aumente seu tamanho para 40px e acrescente uma borda de 1px preta e sólida.
+    
+    h1 em, h2 em {
+        font-size: 40px;
+        border: 1px solid black;
+    }
 
 3. Faça todas as li’s terem 20px de tamanho de fonte e, para todo texto em itálico dentro de alguma li, utilize a propriedade font-weight para deixá-lo negrito.
+    
+    li {
+      font-size: 20px;
+    }
+
+    li em {
+      font-weight: 700;
+    }
 
 4. Na listagem de linguagens de programação, faça com que as 3 primeiras da lista possuam cor de fonte azul e, se alguma possuir “java*” no texto, utilize uma cor de fundo rosa.
 
