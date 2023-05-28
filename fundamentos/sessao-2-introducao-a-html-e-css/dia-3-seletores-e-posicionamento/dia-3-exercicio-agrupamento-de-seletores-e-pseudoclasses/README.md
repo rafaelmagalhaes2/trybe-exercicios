@@ -189,7 +189,74 @@
 
 10. Estilize cada uma das tags h3 da maneira que achar melhor (cor, tamanho, estilo e família).
 
+    Resp:
+
+        h3 {
+            color: black;
+            font-size: 1.5em;
+            font-style: normal;
+            font-family:'Courier New', Courier, monospace;
+        }
+
 11. Faça a terceira div ser maior que as demais.
 
+    Resp:
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .roxo {
+            background-color: purple;
+        }
+
+        .vermelho {
+            background-color: red;
+            height: 100px;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        .cinza {
+            background-color: gray;
+        }
+
 12. Deixe as tags ímpares h3 com o texto em itálico.
+
+    Resp:
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .amarelo h3 {
+            font-style: italic;
+        }
+
+        .roxo {
+            background-color: purple;
+        }
+
+        .vermelho {
+            background-color: red;
+            height: 100px;
+        }
+
+        .vermelho h3 {
+            font-style: italic;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        .cinza {
+            background-color: gray;
+        }
+
+        .cinza h3 {
+            font-style: italic;
+        }
 
