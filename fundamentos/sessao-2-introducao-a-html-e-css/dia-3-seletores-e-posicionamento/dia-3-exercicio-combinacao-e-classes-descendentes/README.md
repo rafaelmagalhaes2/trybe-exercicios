@@ -85,20 +85,17 @@
 
 1. Faça com que todos os itens de Listas Ordenadas tenham uma cor de fundo amarela. Se a numeração do item for PAR, faça a cor de fonte ser verde. Se o número for considerado ÍMPAR, utilize a propriedade text-transform para deixar o texto maiúsculo. (Dica: combinar classes pode ser útil aqui).
 
-    Resp: Adicione a classe class='lista' as tags ul e ol das listas no HTML.
-          Adicione as classes class='item-1' ... class='item-5' nas tags li. 
+    ol li {
+      background-color: yellow;
+    }
 
-        .lista {
-            background-color: yellow;
-        }
-
-        .item-2, .item-4 {
-            background-color: green;    
-        }
-
-        .item-1, .item-3, .item-5 {
-            text-transform: uppercase;
-        }
+    ol li:nth-child(even) {
+      color: green;
+    }
+    
+    ol li:nth-child(odd) {
+      text-transform: uppercase;
+    }
 
 2. Faça todas as tags Header (h1, h2…) possuírem cor de fonte vermelha e, se alguma delas estiver em itálico, aumente seu tamanho para 40px e acrescente uma borda de 1px preta e sólida.
 
@@ -113,4 +110,3 @@ Dica 1: Utilize o seletor :hover para controlar o passar do mouse.
 Dica 2: Sugestão de cores padrão. StackOverflow (laranja), W3Schools (verde), MDN (preta), DevDocs (amarela), Trybe (verde).
 
 ## Layout final
-
