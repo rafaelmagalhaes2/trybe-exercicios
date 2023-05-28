@@ -1,15 +1,4 @@
-h1, p {
-  text-align: center;
-}
 
-ul {
-  list-style: none;
-}
-
-li:hover {
-  background-color: brown;
-}
-
-li:active {
-  font-size: 2em;;
+div:hover {
+  border: 3px solid slateblue;
 }
