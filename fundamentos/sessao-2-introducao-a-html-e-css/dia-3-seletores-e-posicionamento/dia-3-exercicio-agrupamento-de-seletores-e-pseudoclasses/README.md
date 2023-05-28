@@ -102,3 +102,161 @@
         li:active {
         font-size: 2em;
         }
+
+7. Para este exercício, você não deve atribuir nenhuma classe ou id aos componentes, mas apenas utilizar pseudo-classes para individualizar cada elemento!
+
+    copie o arquivo index.html abaixo:
+
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>Pseudo-classes</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+            <body>
+                <h1>Paleta de Cores</h1>
+                <p>Vamos criar uma paleta de cores com as divs abaixo:</p>
+                <div>
+                    <h3>Cor primária</h3>
+                </div>
+                <div>
+                    <h3>Cor Secundária</h3>
+                </div>
+                <div>
+                    <h3>Cor Complementar</h3>
+                </div>
+                <div>
+                    <h3>Cor Escura</h3>
+                </div>
+                <div>
+                    <h3>Cor Clara</h3>
+                </div>
+            </body>
+        </html>
+
+8.  Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.
+
+    Resp:
+
+        div:hover {
+          border: 3px solid slateblue;
+        }
+
+9.  Faça cada div ter uma cor de fundo própria.
+
+    Resp: 
+
+        CSS
+
+        .amarelo {
+        background-color: yellow;
+        }
+
+        .roxo {
+        background-color: purple;
+        }
+
+        .vermelho {
+        background-color: red;
+        }
+
+        .verde {
+        background-color: green;
+        }
+
+        .cinza {
+        background-color: gray;
+        }
+
+        HTML
+
+        <div class="amarelo">
+            <h3>Cor primária</h3>
+        </div>
+        <div class="roxo">
+            <h3>Cor Secundária</h3>
+        </div>
+        <div class="vermelho">
+            <h3>Cor Complementar</h3>
+        </div>
+        <div class="verde">
+            <h3>Cor Escura</h3>
+        </div>
+        <div class="cinza">
+            <h3>Cor Clara</h3>
+        </div>
+
+10. Estilize cada uma das tags h3 da maneira que achar melhor (cor, tamanho, estilo e família).
+
+    Resp:
+
+        h3 {
+            color: black;
+            font-size: 1.5em;
+            font-style: normal;
+            font-family:'Courier New', Courier, monospace;
+        }
+
+11. Faça a terceira div ser maior que as demais.
+
+    Resp:
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .roxo {
+            background-color: purple;
+        }
+
+        .vermelho {
+            background-color: red;
+            height: 100px;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        .cinza {
+            background-color: gray;
+        }
+
+12. Deixe as tags ímpares h3 com o texto em itálico.
+
+    Resp:
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .amarelo h3 {
+            font-style: italic;
+        }
+
+        .roxo {
+            background-color: purple;
+        }
+
+        .vermelho {
+            background-color: red;
+            height: 100px;
+        }
+
+        .vermelho h3 {
+            font-style: italic;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        .cinza {
+            background-color: gray;
+        }
+
+        .cinza h3 {
+            font-style: italic;
+        }
+

@@ -1,15 +1,44 @@
-h1, p {
-  text-align: center;
+
+div:hover {
+  border: 3px solid slateblue;
 }
 
-ul {
-  list-style: none;
+h3 {
+  color: black;
+  font-size: 1.5em;
+  font-style: normal;
+  font-family:'Courier New', Courier, monospace;
 }
 
-li:hover {
-  background-color: brown;
+.amarelo {
+  background-color: yellow;
 }
 
-li:active {
-  font-size: 2em;;
+.amarelo h3 {
+  font-style: italic;
+}
+
+.roxo {
+  background-color: purple;
+}
+
+.vermelho {
+  background-color: red;
+  height: 100px;
+}
+
+.vermelho h3 {
+  font-style: italic;
+}
+
+.verde {
+  background-color: green;
+}
+
+.cinza {
+  background-color: gray;
+}
+
+.cinza h3 {
+  font-style: italic;
 }
