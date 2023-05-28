@@ -70,7 +70,7 @@
     }
 
     li:active {
-      font-size: 2em;;
+      font-size: 2em;
     }
 
 5. Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.
@@ -100,5 +100,5 @@
         }
 
         li:active {
-        font-size: 2em;;
+        font-size: 2em;
         }
