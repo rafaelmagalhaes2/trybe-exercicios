@@ -145,6 +145,48 @@
 
 9.  Faça cada div ter uma cor de fundo própria.
 
+    Resp: 
+
+        CSS
+
+        .amarelo {
+        background-color: yellow;
+        }
+
+        .roxo {
+        background-color: purple;
+        }
+
+        .vermelho {
+        background-color: red;
+        }
+
+        .verde {
+        background-color: green;
+        }
+
+        .cinza {
+        background-color: gray;
+        }
+
+        HTML
+
+        <div class="amarelo">
+            <h3>Cor primária</h3>
+        </div>
+        <div class="roxo">
+            <h3>Cor Secundária</h3>
+        </div>
+        <div class="vermelho">
+            <h3>Cor Complementar</h3>
+        </div>
+        <div class="verde">
+            <h3>Cor Escura</h3>
+        </div>
+        <div class="cinza">
+            <h3>Cor Clara</h3>
+        </div>
+
 10. Estilize cada uma das tags h3 da maneira que achar melhor (cor, tamanho, estilo e família).
 
 11. Faça a terceira div ser maior que as demais.
