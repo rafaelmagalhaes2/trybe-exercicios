@@ -151,3 +151,5 @@ Dica 2: Sugestão de cores padrão. StackOverflow (laranja), W3Schools (verde), 
     }
 
 ## Layout final
+
+![Captura de tela de 2023-05-28 13-09-42](https://github.com/rafaelmagalhaesguedes/trybe-exercicios/assets/8412507/4c709607-b2bb-4254-9e37-0f021387d978)
