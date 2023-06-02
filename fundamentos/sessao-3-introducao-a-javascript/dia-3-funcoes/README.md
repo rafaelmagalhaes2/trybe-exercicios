@@ -1,6 +1,6 @@
- # Dia 3 - Funções
+ # 🎯 Dia 3 - Funções
 
- ## Exercicios
+ ## Exercicios 🚀
 
  1. Faça um programa para adicionar pessoas clientes ao array do TrybeBank. 
     A função deve se chamar addCustomer e receber um parâmetro do tipo string 
@@ -22,7 +22,7 @@
 
     console.log(addCustomer('Rafael'));
 
-2.  Agora iremos escrever uma função chamada addCustomers que irá adicionar um 
+ 2. Agora iremos escrever uma função chamada addCustomers que irá adicionar um 
     array de novas pessoas clientes ao nosso array trybeBankCustomers.
     Certifique-se de que somente sejam adicionados ao array trybeBankCustomers 
     valores do tipo string. Caso o parâmetro não seja do tipo string, imprimir 
