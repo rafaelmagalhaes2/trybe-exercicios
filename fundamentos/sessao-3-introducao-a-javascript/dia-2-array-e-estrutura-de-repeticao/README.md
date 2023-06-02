@@ -99,4 +99,144 @@
         console.log ('Nenhum valor ímpar encontrado');
     }
 
+## Desafio fatorial
 
+O fatorial é a multiplicação de um número natural pelos seus antecessores, 
+exceto o zero. Por exemplo:
+
+O fatorial é representado pelo sinal !
+Exemplo de 4 fatorial:
+4! = 4 x 3 x 2 x 1 = 24
+
+Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
+
+    function fatorial ( n ) {
+        let value = n;
+
+        if ( value <= 1 ) {
+            return 1;
+        }
+        if ( value > 1) {
+            return value * fatorial( n - 1);
+        }
+    }
+
+    console.log(fatorial(10));
+
+##  Desafio de inverter palavra
+
+Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
+
+    let palavra = 'Banana';
+
+    console.log('Palavra: ' + palavra);
+
+    // Converte a string em um Array de caracteres split()
+    let arrayCaracteres = palavra.split('');
+
+    // Inverte o Array de caracteres com o método reverse()
+    let arrayInvertido = arrayCaracteres.reverse();
+
+    // Junta os caracteres do array em uma palavra
+    let palavraInvertida = arrayInvertido.join('');
+
+    console.log('Invertida: ' + palavraInvertida);
+
+## Desafio dos asteriscos 1
+
+/* 
+    Escreva um algoritmo que, dado um valor n, sendo n > 1, 
+    imprima na tela um quadrado feito de asteriscos de 
+    tamanho n. Por exemplo:
+
+    n = 5
+
+    *****
+    *****
+    *****
+    *****
+    *****
+*/
+
+    let n = 5;
+    let linha = '';
+
+    if ( n > 1 ) {
+        
+        for(let i = 0; i < n; i++ ) {
+            // Adiciona a linha
+            linha = '';
+
+            for ( let y = 0; y < n; y++ ) {
+                // Adiciona o asterisco dentro da linha
+                linha += '*';
+            }
+            // Imprime as linhas
+            console.log('\n' + linha)
+        } 
+    }
+
+## Desafio dos asteriscos 2
+
+/*
+   Faça o mesmo algoritmo que antes, mas de modo que imprima um 
+   triângulo retângulo com 5 asteriscos de base. Por exemplo:
+   
+   n = 5
+
+    *
+    **
+    ***
+    ****
+    *****
+*/
+
+let n = 5;
+let linha = '';
+
+if ( n > 1 ) {
+    
+    for(let i = 0; i < n; i++ ) {
+        // Adiciona a linha
+        linha += '*';
+        console.log(linha)
+    }    
+}
+
+ 
+## Desafio asteriscos 3
+
+/*
+    Agora, inverta o lado do triângulo. Por exemplo:
+    
+    n = 5
+
+        *
+       **
+      ***
+     ****
+    *****
+*/
+
+let n = 5;
+let linha = '';
+let espacoVazio = n - 1;
+
+for ( let i = 0; i < n; i++ ) {
+
+    for ( let j = 0; j < n; j++ ) {
+
+        if ( j < espacoVazio ) {
+            
+            linha += ' ';
+        
+        } else {
+            linha += '*';
+        }
+
+    }
+
+    console.log(linha);
+    linha = '';
+    espacoVazio -= 1;
+};
