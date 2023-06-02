@@ -1,5 +1,8 @@
+# 🎯 Dia 1 - Primeiros passos em JavaScript 
 
-Considere o array para realiação dos exercícios:
+## Exercícios 🚀
+
+### Considere o array para realiação dos exercícios:
 
 const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
