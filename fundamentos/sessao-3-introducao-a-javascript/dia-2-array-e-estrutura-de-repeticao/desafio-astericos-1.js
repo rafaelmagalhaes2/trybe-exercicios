@@ -1,5 +1,5 @@
 /* 
-    Desafio dos asteriscos
+    Desafio asteriscos 1
 
     Escreva um algoritmo que, dado um valor n, sendo n > 1, 
     imprima na tela um quadrado feito de asteriscos de 
@@ -8,13 +8,9 @@
     n = 5
 
     *****
-
     *****
-
     *****
-
     *****
-
     *****
 */
 

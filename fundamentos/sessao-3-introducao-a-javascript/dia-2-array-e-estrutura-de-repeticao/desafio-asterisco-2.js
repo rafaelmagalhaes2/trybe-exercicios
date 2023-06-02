@@ -1,8 +1,16 @@
 /* 
-   Desafio dos asteriscos 2
+    Desafio asteriscos 2
 
-   Faça o mesmo algoritmo que antes, mas de modo que imprima um 
-   triângulo retângulo com 5 asteriscos de base. Por exemplo:
+    Faça o mesmo algoritmo que antes, mas de modo que imprima um 
+    triângulo retângulo com 5 asteriscos de base. Por exemplo:
+
+    n = 5
+
+    *
+    **
+    ***
+    ****
+    *****
 */
 
 let n = 5;
