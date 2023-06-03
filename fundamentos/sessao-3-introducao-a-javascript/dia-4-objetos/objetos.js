@@ -1,10 +1,6 @@
-# :dart: Dia 4 - Objetos
 
-## Exercícios :rocket:
+/*  Exercício 1
 
-### Exercício 1
-
-/*  
     Crie uma variável chamada player e atribua a ela um objeto 
     que reúna todas as informações das variáveis listadas.
 */
