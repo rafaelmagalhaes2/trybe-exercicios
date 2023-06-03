@@ -22,4 +22,5 @@ addProperty(customer, 'fone', '999 - 9999');
 addProperty(customer, 'userGitHub', 'codadorNoob');
 addProperty(customer, 'linkedin', 'https://linkedin.com/noobcodador');
 
-console.log(customer);
+console.log(customer)
+
