@@ -320,5 +320,19 @@ const reader = {
     }
 
     /*
-        3. Crie uma função que verifica se uma determinada chave existe em todos os elementos do array lessons. O retorno deve ser um booleano (true ou false). Essa função deve possuir dois parâmetros: o objeto e o nome da chave. 
+        3. Crie uma função que verifica se uma determinada chave existe 
+        em todos os elementos do array lessons. O retorno deve ser um 
+        booleano (true ou false). Essa função deve possuir dois parâmetros: 
+        o objeto e o nome da chave. 
     */
+    
+    const keyElement = (array, key) => {
+    for (let index = 0; index < array.lessons.length; index += 1) {
+        if (array.lessons[index][key]) {
+        return true;
+        }
+    }
+    return false;
+    };
+
+    console.log(keyElement(school, 'students'));

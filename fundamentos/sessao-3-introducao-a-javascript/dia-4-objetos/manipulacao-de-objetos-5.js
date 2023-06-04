@@ -36,7 +36,7 @@ const keyValues = (array, pos) => Object.values(array)[pos];
 keyValues(school, 0);
 
 /* 
-    Crie uma função que retorne a soma do número total de estudantes em todos os cursos. 
+    2. Crie uma função que retorne a soma do número total de estudantes em todos os cursos. 
 */
 const totalStudents = (array) => { 
     
@@ -49,4 +49,21 @@ const totalStudents = (array) => {
     return sum;
  }
 
-console.log(totalStudents(school));
+totalStudents(school);
+
+/*
+    3. Crie uma função que verifica se uma determinada chave existe 
+    em todos os elementos do array lessons. O retorno deve ser um 
+    booleano (true ou false). Essa função deve possuir dois parâmetros: 
+    o objeto e o nome da chave. 
+*/
+const keyElement = (array, key) => {
+  for (let index = 0; index < array.lessons.length; index += 1) {
+    if (array.lessons[index][key]) {
+      return true;
+    }
+  }
+  return false;
+};
+
+console.log(keyElement(school, 'students'));
