@@ -1,31 +1,31 @@
 
 const school = {
-    lessons: [
-      {
-        course: 'Python',
-        students: 20,
-        professor: 'Carlos Patrício',
-        shift: 'Manhã',
-      },
-      {
-        course: 'Kotlin',
-        students: 10,
-        professor: 'Gabriel Oliva',
-        shift: 'Noite',
-      },
-      {
-        course: 'JavaScript',
-        students: 738,
-        professor: 'Gustavo Caetano',
-        shift: 'Tarde',
-      },
-      {
-        course: 'MongoDB',
-        students: 50,
-        shift: 'Noite',
-      },
-    ]
-  };
+  lessons: [
+    {
+      course: 'Python',
+      students: 20,
+      professor: 'Carlos Patrício',
+      shift: 'Manhã',
+    },
+    {
+      course: 'Kotlin',
+      students: 10,
+      professor: 'Gabriel Oliva',
+      shift: 'Noite',
+    },
+    {
+      course: 'JavaScript',
+      students: 738,
+      professor: 'Gustavo Caetano',
+      shift: 'Tarde',
+    },
+    {
+      course: 'MongoDB',
+      students: 50,
+      shift: 'Noite',
+    },
+  ]
+};
 
 /*
     1. Crie uma função que obtenha o valor da chave de acordo com sua posição no array. 
@@ -38,16 +38,16 @@ keyValues(school, 0);
 /* 
     2. Crie uma função que retorne a soma do número total de estudantes em todos os cursos. 
 */
-const totalStudents = (array) => { 
-    
-    let sum = 0;
+const totalStudents = (array) => {
 
-    for( let i = 0; i < array.lessons.length; i += 1 ) {
-        sum += array.lessons[i].students;
-    }
-    
-    return sum;
- }
+  let sum = 0;
+
+  for (let i = 0; i < array.lessons.length; i += 1) {
+    sum += array.lessons[i].students;
+  }
+
+  return sum;
+}
 
 totalStudents(school);
 
@@ -66,4 +66,29 @@ const keyElement = (array, key) => {
   return false;
 };
 
-console.log(keyElement(school, 'students'));
+keyElement(school, 'students');
+
+/*
+    4. Crie uma função para alterar o turno para noite no curso de Python. 
+    Essa função deve ter três parâmetros: a base de dados a ser modificada, 
+    o nome do curso e o novo valor da chave. 
+*/
+const editTurno = (array, newCurso, key) => {
+  let curso;
+  for (let index = 0; index < array.lessons.length; index += 1) {
+    let element = array.lessons[index];
+    if(element.course === newCurso) {
+      curso = element;
+      break;
+    }
+  }
+  if (curso !== undefined) {
+    curso.shift = key;
+    return curso;
+  }
+  else {
+    return 'Curso não encontrado';
+  }
+};
+
+console.log(editTurno(school, 'Python', 'Noite'));

@@ -336,3 +336,29 @@ const reader = {
     };
 
     console.log(keyElement(school, 'students'));
+
+    /* 
+        4. Crie uma função para alterar o turno para noite no curso de Python. 
+        Essa função deve ter três parâmetros: a base de dados a ser modificada, 
+        o nome do curso e o novo valor da chave. 
+    */
+    
+    editTurno = (array, newCurso, key) => {
+    let curso;
+    for (let index = 0; index < array.lessons.length; index += 1) {
+        let element = array.lessons[index];
+        if(element.course === newCurso) {
+        curso = element;
+        break;
+        }
+    }
+    if (curso !== undefined) {
+        curso.shift = key;
+        return curso;
+    }
+    else {
+        return 'Curso não encontrado';
+    }
+    };
+
+    console.log(editTurno(school, 'Python', 'Noite'));
