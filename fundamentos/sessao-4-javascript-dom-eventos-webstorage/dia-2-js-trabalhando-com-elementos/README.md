@@ -1,5 +1,5 @@
 # :dart: Dia 2 - JavaScript DOM e Seletores
-## Exercícios :rocket:
+## Exercício Buscando Elementos :rocket:
 
     <main id="parent-of-parent">
         <section id="parent">
