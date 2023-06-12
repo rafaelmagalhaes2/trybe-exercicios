@@ -1,4 +1,4 @@
-# :dart: Dia 1 - JavaScript DOM e Seletores
+# :dart: Dia 2 - JavaScript DOM e Seletores
 ## Exercícios :rocket:
 
     <main id="parent-of-parent">
