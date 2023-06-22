@@ -15,15 +15,13 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // Dica: Lembre-se do método `.classList.remove`.
 
 const adicionaClasse = (evento) => {
-  // Seleciona a lista <ul>
+  // Seleciona todos elementos <li> da lista <ul>
   const lista = document.querySelector('.container');
   // Remove a classe tech dos elementos da lista
   lista.classList.remove('tech');
   // Adiciona a classe tech ao elemento clicado
   evento.target.classList.add('tech');
-
-  input.value = '';
-}
+};
 
 // Adiciona os gatilhos
 firstLi.addEventListener('click', adicionaClasse);
@@ -32,6 +30,12 @@ thirdLi.addEventListener('click', adicionaClasse);
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech'.
+
+const alteraTexto = ('input', (evento) => {
+  const classeTech = document.querySelector('.tech');
+  // Altera o texto
+  classeTech.innerText = evento.target.value;
+});
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy',
 // redirecione para alguma página.
