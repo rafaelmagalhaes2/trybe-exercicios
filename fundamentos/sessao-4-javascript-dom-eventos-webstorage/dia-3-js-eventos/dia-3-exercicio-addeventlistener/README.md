@@ -32,13 +32,27 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech'.
+    
+    const alteraTexto = ('input', (evento) => {
+    const classeTech = document.querySelector('.tech');
+    // Altera o texto
+    classeTech.innerText = evento.target.value;
+    });
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy',
 // redirecione para alguma página.
 // 4.1. Que tal redirecionar para seu portfólio? Dica: Lembre-se dos métodos `window.location.replace` e `window.open`.
+    
+    const redirecionar = ('dblclick', (evento) => {
+    window.location.replace('https://github.com/rafaelmagalhaesguedes');
+    });
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo.
+
+    const alteraCor = ('mouseover', (evento) => {
+    evento.target.style.color = 'blue';
+    });
 
 // Segue abaixo um exemplo de uso do event.target.
 

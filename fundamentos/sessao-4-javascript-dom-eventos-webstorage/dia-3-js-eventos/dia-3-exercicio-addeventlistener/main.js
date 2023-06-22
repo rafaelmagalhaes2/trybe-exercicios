@@ -48,11 +48,15 @@ const redirecionar = ('dblclick', (evento) => {
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo.
 
+const alteraCor = ('mouseover', (evento) => {
+  evento.target.style.color = 'blue';
+});
+
 // Segue abaixo um exemplo de uso do event.target.
 
-const resetText = (event) => {
+const resetText = (evento) => {
   // O event é passado como um parâmetro para a função.
-  event.target.innerText = 'Opção reiniciada';
+  evento.target.innerText = 'Opção reiniciada';
   // O event possui várias propriedades, porém a mais usada é o event.target,
   // que retorna o objeto que disparou o evento.
 }
