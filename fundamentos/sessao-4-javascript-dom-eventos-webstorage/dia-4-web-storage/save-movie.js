@@ -7,7 +7,7 @@ function submitNewMovie(event) {
    
     event.preventDefault();
     
-    const movies = JSON.parse(localStorage.getItem('movies')) || [];
+    const moviesLibrary = JSON.parse(localStorage.getItem('movies')) || [][];
 
     // Create Object
     const newMovie = {
@@ -17,7 +17,9 @@ function submitNewMovie(event) {
     }
 
     // Save object Array
-    movies.push(newMovie);
+    moviesLibrary.push(newMovie);
+
+    console.log(moviesLibrary);
 
     // Clear inputs
     inputTitle.value = '';
@@ -25,10 +27,10 @@ function submitNewMovie(event) {
     inputWatched.checked = false;   
 
     // Save objects localStorage
-    localStorage.setItem('movies', JSON.stringify('movies'));
+    localStorage.setItem('movies', JSON.stringify('moviesLibrary'));
 
     // Redirection index.html
-    location.href = '/index.html'
+    location.href = '/index.html';
 }
 
 form.addEventListener('submit', submitNewMovie);
