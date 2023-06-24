@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New movie</title>
+</head>
+<body>
+    <h1>New movie</h1>
+    
+    <form style="display: flex; flex-direction: column; max-width: fit-content;">
+        
+        <label>
+            Title of movie:
+            <input type="text" id="title">
+        </label>
+        
+        <label>
+            URL Cover of movie:
+            <input type="text" id="cover">
+        </label>
+        
+        <label>
+            Watched?
+            <input type="checkbox" id="watched">
+        </label>
+
+        <button type="submit">Save</button>
+    </form>
+    <script src="save-movie.js"></script>
+</body>
+</html>
