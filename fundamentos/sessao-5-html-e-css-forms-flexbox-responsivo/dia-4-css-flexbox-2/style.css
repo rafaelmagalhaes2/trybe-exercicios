@@ -24,6 +24,7 @@
   
   .menu-container {
     display: flex;
+    flex: 1 auto;
     width: 500px;
   }
   
