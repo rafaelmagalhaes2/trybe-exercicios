@@ -1,4 +1,4 @@
-const removeItem = require('./script.js');
+const removeItem = require('./removeItem.js');
 
 describe('Requisito 1', () => {
     it('Verifique se a chamada removeItem([1, 2, 3, 4], 3) retorna o array esperado. ', () => {
