@@ -11,7 +11,7 @@
     e criar o objeto de cada pessoa contratada.
 */
 
-const newEmployees = () => {
+const newEmployees = (newEmployees) => {
     const employees = {
       id1: employer('Pedro Guerra'), // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro, substituindo as aspas
       id2: employer('Luiza Drumond'), // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
@@ -20,6 +20,9 @@ const newEmployees = () => {
     return employees;
 };
 
-const employer = (name) => `${name}@trybe.com`;
+const employer = (name) => {
+  const email = `${name.toLowerCase().split(' ').join('_')}@trybe.com`;
+  return { name, email: `${email}`}
+};
 
 console.log(newEmployees());
