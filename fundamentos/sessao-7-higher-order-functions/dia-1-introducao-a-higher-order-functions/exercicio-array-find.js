@@ -5,11 +5,6 @@
 
 const numbers = [19, 21, 30, 3, 45, 22, 15];
 
-// Retorna se é true ou false
-// numbers.find((num) =>  console.log(num % 3 === 0 && num % 5 === 0));
+const findNumber = () => numbers.find((num) => num % 3 === 0 && num % 5 === 0);
 
-numbers.find((num) => {
-    if (num % 3 === 0 && num % 5 === 0) {
-        console.log(num + ' é divisível por 3 e 5');
-    }
-});
+console.log(findNumber());
