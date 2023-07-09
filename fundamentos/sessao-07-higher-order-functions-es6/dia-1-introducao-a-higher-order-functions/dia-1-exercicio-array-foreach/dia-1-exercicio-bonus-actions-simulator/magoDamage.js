@@ -11,3 +11,22 @@ const database = require('./database.js');
     caso o mago tenha menos de 15 de mana, o valor de dano recebe uma mensagem 
     (Ex: “Não possui mana suficiente”), e a mana gasta é 0.
  */
+
+const mageDamage = () => {
+    const mageMana = database.mage.mana;
+    const minDmg = database.mage.intelligence;
+    const maxDmg = minDmg * 2;
+    
+    const turnStats = {
+        manaSpent: 0,
+        damageDealt: 'Not enough mana...',
+    };
+
+    if (mageMana > 15) {
+        const mageDamage = minDmg < maxDmg ? maxDmg : minDmg;
+        turnStats.manaSpent = 15;
+        turnStats.damageDealt = mageDamage;
+        return turnStats;
+    }
+    return turnStats;
+};
