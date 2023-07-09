@@ -13,7 +13,7 @@ const users = [
     }
 ];
 
-// Utilizando HOF
+// HOF Map - Get user names
 
 const userNames = users.map((user) => user.name);
 
