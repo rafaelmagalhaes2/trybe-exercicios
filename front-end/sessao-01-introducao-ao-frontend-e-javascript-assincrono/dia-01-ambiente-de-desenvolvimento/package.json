@@ -1,0 +1,16 @@
+{
+  "name": "dia-01-ambiente-de-desenvolvimento",
+  "version": "1.0.0",
+  "description": "Configurando o ambiente de desenvolvimento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rafael Guedes",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.2"
+  },
+  "type": "module"
+}
