@@ -4,13 +4,16 @@
   "description": "Configurando o ambiente de desenvolvimento.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open"
   },
   "keywords": [],
   "author": "Rafael Guedes",
   "license": "ISC",
   "dependencies": {
-    "nanoid": "^4.0.2"
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^4.0.2",
+    "vite": "^4.4.7"
   },
   "type": "module"
 }
