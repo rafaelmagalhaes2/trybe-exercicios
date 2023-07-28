@@ -10,7 +10,7 @@ Endpoints Principais
 
 # Uso Exemplo
 
-    **javascript**
+   **javascript**
 
     const URL_API = 'https://akabab.github.io/superhero-api/api';
 
