@@ -20,8 +20,6 @@ button.addEventListener('click', (event) => {
       nick.innerHTML = data.name;
     })
     .catch((error) => Swal.fire({
-      // Aqui, estamos usando a nossa biblioteca, mas
-      // você pode usar a função window.alert() também
       title: 'Hero not found',
       text: error.message,
       icon: 'error',
