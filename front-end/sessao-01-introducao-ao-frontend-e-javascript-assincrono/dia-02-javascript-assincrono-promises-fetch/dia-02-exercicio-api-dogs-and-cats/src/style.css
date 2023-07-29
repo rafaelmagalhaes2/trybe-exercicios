@@ -1,0 +1,16 @@
+/* Estilo para adicionar espaçamento entre o menu fixo no topo e o título da página */
+.main-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilo para centralizar os botões e diminuir o espaçamento entre eles */
+.btn-group-center {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group-center .btn {
+    margin: 5px;
+}

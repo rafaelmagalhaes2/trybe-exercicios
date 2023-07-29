@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Dogs and Cats</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
 </head>
+
 <body>
-    <main>
-        <div class="image">
+    <!-- Menu fixado no topo -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">API Random Cats And Dogs</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dogs">API DOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cats">API CAT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 main-header">
+                <!-- Jumbotron -->
+                <div class="jumbotron">
+                    <h1 class="display-4">Welcome to the API!</h1>
+                    <p class="lead">Random Cats and Dogs at your fingertips</p>
+                </div>
+            </div>
+        </div>
+        <!-- Container para os botões -->
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-6 mb-3 btn-group-center">
+                <button id="dogs" class="btn btn-primary btn-block">Get random dog</button>
+                <button id="cats" class="btn btn-primary btn-block">Get random cat</button>
+                <button id="surprise" class="btn btn-primary btn-block">Surprise me</button>
+            </div>
+        </div>
+        <div class="img-fluid">
             <img id="img" alt="Random pet">
         </div>
-        <div class="buttons">
-            <button>Get random dog</button>
-            <button>Get random cat</button>
-            <button>Surprise me</button>
-        </div>
     </main>
+    <script type="module" src="./src/script.js"></script>
 </body>
+
 </html>
