@@ -1,0 +1,5 @@
+/* CSS para definir um tamanho fixo para os cards */
+.card {
+  width: 200px;
+  height: 100px;
+}
