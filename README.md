@@ -1,3 +1,3 @@
-# Repositório e exercícios Trybe 🚀
+# Repositório de exercícios Trybe 🚀
 
 
