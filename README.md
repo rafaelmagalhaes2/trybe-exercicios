@@ -7,7 +7,7 @@ A Trybe é uma escola de programação que oferece um programa de formação int
 
 # Projetos
 
-### Tip Calculator App - Primeiro Projeto
+### Tip Calculator App
 
 O aplicativo é uma ferramenta simples que ajuda a calcular o valor da gorjeta e o valor total da conta por pessoa ao dividir a conta entre várias pessoas. 
 
@@ -15,7 +15,7 @@ Link do repositório: https://github.com/rafaelmagalhaesguedes/tipCalculatorApp.
 
 Link do projeto on: https://rafaelmagalhaesguedes.github.io/tipCalculatorApp.io/
 
-### Casa De Câmbios - Segundo Projeto
+### Casa De Câmbios
 
 Este projeto é um trabalho prático do módulo Front-end da Trybe. O projeto visa fornecer taxas de câmbio para várias moedas.
 
@@ -23,7 +23,7 @@ Link do repositório: https://github.com/rafaelmagalhaesguedes/casaDeCambio
 
 Link do projeto on: https://casa-de-cambios-rafaelmagalhaesguedes.vercel.app/
 
-### iChoveu App - Terceiro Projeto e mais recente
+### iChoveu App
 
 Este aplicativo web permite que os usuários busquem cidades e visualizem previsões do tempo.
 
