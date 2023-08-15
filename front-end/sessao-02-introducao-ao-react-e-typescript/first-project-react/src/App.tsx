@@ -1,11 +1,20 @@
 import './App.css';
+import ModuleDetails from './components/ModuleDetails';
 import Title from './components/Title';
 
 function App() {
   return (
-    <header>
-      <Title />
-    </header>
+    <main>
+
+      <header>
+        <Title />
+      </header>
+
+      <section>
+        <ModuleDetails />
+      </section>
+
+    </main>
   );
 }
 
