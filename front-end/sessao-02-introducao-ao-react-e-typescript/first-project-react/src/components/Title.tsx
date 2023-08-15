@@ -1,7 +1,7 @@
 export default function Title() {
   return (
-    <div>
+    <header>
       <h1>Desenvolvimento Web</h1>
-    </div>
+    </header>
   );
 }

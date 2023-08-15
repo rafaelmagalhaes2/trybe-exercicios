@@ -1,19 +1,10 @@
 import './App.css';
-import ModuleDetails from './components/ModuleDetails';
-import Title from './components/Title';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   return (
     <main>
-
-      <header>
-        <Title />
-      </header>
-
-      <section>
-        <ModuleDetails />
-      </section>
-
+      <HelloWorld />
     </main>
   );
 }
