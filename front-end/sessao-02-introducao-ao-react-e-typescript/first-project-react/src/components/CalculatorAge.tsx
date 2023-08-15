@@ -15,7 +15,7 @@ export default function CalculatorAge() {
   };
   return (
     <aside>
-      <h1>Age Calculator</h1>
+      <h1>Calculadora de Idade</h1>
       <label htmlFor="date">
         Ano de nascimento:
       </label>
@@ -25,7 +25,7 @@ export default function CalculatorAge() {
         value={ birthdate }
         onChange={ handleBirthdateChange }
       />
-      <button className="button" onClick={ handleCalculateAge }>Calculate Age</button>
+      <button className="button" onClick={ handleCalculateAge }>Calcular</button>
       {age !== null && (
         <p>{ age }</p>
       )}
