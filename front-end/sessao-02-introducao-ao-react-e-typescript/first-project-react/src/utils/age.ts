@@ -1,5 +1,3 @@
-// ageCalculator.ts
-
 export function calculateAge(birthdate: string): number | null {
   if (birthdate) {
     const birthdateDate = new Date(birthdate);
