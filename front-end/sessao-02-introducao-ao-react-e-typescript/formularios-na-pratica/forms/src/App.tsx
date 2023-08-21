@@ -9,6 +9,14 @@ function App() {
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     alert(`${name}, ${email}, ${schooling}, ${resume}`);
+    resetForm();
+  }
+
+  function resetForm() {
+    setName('');
+    setEmail('');
+    setSchooling('');
+    setResume('');
   }
   
   return (
