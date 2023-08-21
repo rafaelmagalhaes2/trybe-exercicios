@@ -5,10 +5,15 @@ function App() {
   const [email, setEmail] = useState('');
   const [schooling, setSchooling] = useState('Médio');
   const [resume, setResume] = useState('');
+
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    alert(`${name}, ${email}, ${schooling}, ${resume}`);
+  }
   
   return (
     <>
-      <form>
+      <form onSubmit={(event) => handleSubmit(event)}>
         <h1>Formulário</h1>
         <div className="wrapper">
           <label>
