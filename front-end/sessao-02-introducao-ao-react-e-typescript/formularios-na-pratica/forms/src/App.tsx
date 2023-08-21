@@ -35,6 +35,7 @@ function App() {
           <label>
             Nome
             <input
+              required
               value={name}
               onChange={({ target }) => setName(target.value)}
             />
@@ -42,6 +43,7 @@ function App() {
           <label>
             E-mail
             <input
+              required
               value={email}
               onChange={({ target }) => setEmail(target.value)}
             />
