@@ -1,6 +1,7 @@
 import Title from './Title';
 import ModuleDetails from './ModuleDetails';
 import CalculatorAge from './CalculatorAge';
+import GetNameUser from './GetNameUser';
 
 export default function HelloWorld() {
   return (
@@ -11,6 +12,7 @@ export default function HelloWorld() {
       <div className="container">
         <ModuleDetails />
         <CalculatorAge />
+        <GetNameUser />
       </div>
     </>
   );

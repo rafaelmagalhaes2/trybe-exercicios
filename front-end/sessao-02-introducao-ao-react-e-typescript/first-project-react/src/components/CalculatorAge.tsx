@@ -2,32 +2,44 @@ import React, { useState } from 'react';
 import { calculateAge } from '../utils/age';
 
 export default function CalculatorAge() {
-  const [birthdate, setBirthdate] = useState('');
-  const [age, setAge] = useState<number | null>(null);
+  const [aniversario, setAniversario] = useState('');
+  const [idade, setIdade] = useState<number | null>(null);
 
-  const handleBirthdateChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setBirthdate(event.target.value);
+  const getValue = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setAniversario(event.target.value);
   };
 
-  const handleCalculateAge = () => {
-    const calculatedAge = calculateAge(birthdate);
-    setAge(calculatedAge);
+  const getCalculateAge = () => {
+    const calculatedAge = calculateAge(aniversario);
+    setIdade(calculatedAge);
   };
+
   return (
     <aside>
+<<<<<<< HEAD
       <h1>Calculadora de Idade</h1>
       <label htmlFor="date">
         Ano de nascimento:
       </label>
+=======
+      <h1>Calcular Idade</h1>
+      <label htmlFor="date">Ano de nascimento:</label>
+>>>>>>> front-end/sessao-01-dia-02-exercicios-praticos
       <input
         id="date"
         type="date"
-        value={ birthdate }
-        onChange={ handleBirthdateChange }
+        value={ aniversario }
+        onChange={ getValue }
       />
+<<<<<<< HEAD
       <button className="button" onClick={ handleCalculateAge }>Calcular</button>
       {age !== null && (
         <p>{ age }</p>
+=======
+      <button className="button" onClick={ getCalculateAge }>Calcular</button>
+      {idade !== null && (
+        <p>{ idade }</p>
+>>>>>>> front-end/sessao-01-dia-02-exercicios-praticos
       )}
     </aside>
   );

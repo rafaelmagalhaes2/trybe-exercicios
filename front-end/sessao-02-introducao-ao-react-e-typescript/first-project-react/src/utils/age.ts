@@ -1,4 +1,6 @@
-export function calculateAge(birthdate: string): number | null {
+type DateString = string;
+
+export function calculateAge(birthdate: DateString): number | null {
   if (birthdate) {
     const birthdateDate = new Date(birthdate);
     const today = new Date();
