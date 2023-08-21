@@ -57,6 +57,10 @@ h1 {
   line-height: 1.1;
 }
 
+h4 {
+  text-align: center;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
