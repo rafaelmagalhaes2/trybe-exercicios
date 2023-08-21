@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { images } from  '../images/data';
+import { images } from  '../data/data';
 
 function Carrossel() {
   const [index, setIndex] = useState(0);
@@ -21,15 +21,25 @@ function Carrossel() {
   }
 
   return (
-    <>
-      <h2>{images[index].name}</h2>
-      <img
-        src={images[index].image}
-        alt={images[index].name}
-      /><br />
-      <button onClick={handlePreviousClick}>Anterior</button>
-      <button onClick={handleNextClick}>Próximo</button>
-    </>
+    <div className="carrossel">
+
+      <div className="title">
+        <h2>{images[index].name}</h2>
+      </div>
+
+      <div className="slider">
+        <img
+            src={images[index].image}
+            alt={images[index].name}
+        />
+      </div>
+      
+      <div className="buttons">
+        <button onClick={handlePreviousClick}>Anterior</button>
+        <button onClick={handleNextClick}>Próximo</button>
+      </div>
+
+    </div>
   );
 }
 

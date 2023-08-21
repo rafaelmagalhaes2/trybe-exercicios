@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(8, 8, 8, 0.87);
+  background-color: rgb(255, 255, 255);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -46,8 +46,14 @@ body {
 }
 
 img {
-  width: 500px;
-  height: auto;
+  width: 800px;
+  height: 400px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 h1 {
