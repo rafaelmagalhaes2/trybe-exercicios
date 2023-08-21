@@ -22,7 +22,6 @@ function Carrossel() {
 
   return (
     <>
-      <h1>Corrossel de imagens com REACT</h1>
       <h2>{images[index].name}</h2>
       <img
         src={images[index].image}
