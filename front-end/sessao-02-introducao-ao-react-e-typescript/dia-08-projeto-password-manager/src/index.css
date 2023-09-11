@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(39, 42, 55, 1);
+}
+
+/* Container Geral */
+.container {
+  width: 1440px;
+  height: 1024px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(39, 42, 55, 1);
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 779px;
+  height: 76px;
+  margin-top: 89px;
+}
+
+header > h1 {
+  font-family: Roboto;
+  font-size: 65px;
+  font-weight: 1200;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.asterisco {
+  width: 24px;
+  height: 59px;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 59px;
+  letter-spacing: 0em;
+  color: rgba(49, 135, 231, 1);
+}
+
+.asterisco-red {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 900;
+  color: rgb(242, 2, 2);
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Cadastrar */
+.register-button {
+  width: 256px;
+  height: 55px;
+  margin-top: 50px;
+  border-radius: 100px;
+  border: none;
+  background: rgba(53, 144, 245, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+/* Message Empty Services */
+.message-empty-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(131, 131, 131, 1);
+  margin-top: 250px
+}
+
+.locker {
+  width: 47.44828796386719px;
+  height: 47.44828796386719px;
+  margin-top: 10px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(30, 32, 41, 1);
+}
+
+.container-form {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.ipt-login-pass {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ipt-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.ipt-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(141, 141, 141, 1);
+  padding: 5px 0;
+}
+
+input {
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+}
+
+.serviceName {
+  width: 100%;
+  height: 53px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(59, 63, 80, 1);
+}
+
+.ipts-login-pass {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+  gap: 1rem;
+}
+
+.login {
+  width: 100%;
+  height: 53px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(59, 63, 80, 1);
+
+}
+
+.password {
+  width: 130%;
+  height: 53px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(59, 63, 80, 1);
+}
+
+.toggle-button-password {
+  padding-top: 43px;
+}
+
+#togglePassword {
+  border-radius: 10px;
+  border: none;
+  background: rgba(59, 63, 80, 1);
+  position: absolute;
+}
+
+.url {
+  width: 100%;
+  height: 53px;
+  top: 428px;
+  left: 301px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(59, 63, 80, 1);
+}
+
+.ipt-url {
+  margin: 10px 0;
+}
+
+.vetor4 {
+  width: 20.5px;
+  height: 41px;
+  margin: 55px 0px; 
+}
+
+.buttons-form {
+  width: 65%;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.btn-form-register {
+  width: 211px;
+  height: 55px;
+  top: 528px;
+  left: 616px;
+  border-radius: 100px;
+  background: rgba(53, 144, 245, 1);
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btn-form-cancel {
+  width: 72px;
+  height: 21px;
+  color: rgba(53, 144, 245, 1);
+  font-size: 1.1rem;
+  background: rgba(30, 32, 41, 1);
+  border: none;
+  cursor: pointer;
+}
+
+.campos-obrigatorios {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 13px;
+  color: rgba(141, 141, 141, 1);
+}
+
+/* Checkbox */
+.checkbox-pass {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.box-check {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  justify-content: center;
+  background: rgba(37, 39, 48, 1);
+  width: 263px;
+  height: 147px;
+  border-radius: 10px;
+}
+
+.check-password {
+  width: 55%;
+  margin: 85px 0px;
+  display: flex;
+  flex-flow: row;
+}
+
+.label-checkbox {
+  border-radius: 50px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(53, 144, 245, 1);
+  padding-right: 10px;
+}
+
+.checkbox {
+  display: none;
+}
+
+.custom-checkbox {
+  width: 40px;
+  height: 20px;
+  background-image: url('./images/Rectangle20.svg');
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bullet {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+}
+
+.checked .bullet {
+  transform: translateX(20px);
+}
+
+.custom-checkbox.checked {
+  background-color: #e0e0e0;
+}
+
+
+/* Services */
+.section-services {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;  
+  width: 900px;
+  height: 895px;
+  border: 3px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 71px 0;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  height: 170px;
+  top: 438px;
+  left: 274px;
+  border-radius: 10px;
+  background: rgba(50, 53, 68, 1);
+  padding-left: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.list-service-name {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.icon-locker {
+  width: 10%;
+}
+
+.link-service {
+  width: 80%;
+  text-align: right;
+  padding-right: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: rgba(53, 144, 245, 1);
+}
+
+.icon-link-image {
+  width: 10%;
+}
+
+.login-service {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.login-title {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(156, 188, 224, 1);
+}
+
+.login-value {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(233, 233, 233, 1);
+}
+
+.list-password {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.password-title {
+  width: 33px;
+  height: 14px;
+  top: 540px;
+  left: 298px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(156, 188, 224, 1);  
+}
+
+.password-value {
+  width: 126px;
+  height: 16px;
+  top: 538px;
+  left: 370px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn-remover {
+  float: right;
+  background: rgba(50, 53, 68, 1);
+  border: none;
+}
+
