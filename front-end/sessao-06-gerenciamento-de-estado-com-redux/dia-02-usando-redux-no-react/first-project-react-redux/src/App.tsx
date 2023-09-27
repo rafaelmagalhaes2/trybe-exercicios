@@ -2,13 +2,22 @@ import { useSelector, useDispatch } from 'react-redux';
 import { clickCounter, actionCreator } from './redux/actions/index';
 
 type RootState = {
-  clicks: number,
-  count: number;
+  counterReducer: {
+    count: number;
+    clicks: number;
+  }
 };
 
 function App() {
   const rootState = useSelector((state: RootState) => state);
   const dispatch = useDispatch();
+
+  /*
+    Lembrando que podemos chamar a propriedade diretamente no parametro do userSelector
+
+    const count = useSelector((state: RootState) => state.counterReducer.count);
+    const clicks = useSelector((state: RootState) => state.counterReducer.clicks);
+ */
 
   function handleClick(count = 1) {
     dispatch(actionCreator(count));
@@ -19,9 +28,9 @@ function App() {
     <main>
       <div className="counter-container">
         <h1>Contador</h1>
-        <h2>{rootState.count}</h2>
+        <h2>{rootState.counterReducer.count}</h2>
         <h1>Clicks</h1>
-        <h2>{rootState.clicks}</h2>
+        <h2>{rootState.counterReducer.clicks}</h2>
       </div>
       <div className="button-container">
         <button onClick={() => handleClick()}>Incrementa 1</button>
