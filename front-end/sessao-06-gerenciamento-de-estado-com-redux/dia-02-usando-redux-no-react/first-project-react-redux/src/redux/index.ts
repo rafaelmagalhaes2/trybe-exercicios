@@ -6,7 +6,7 @@ type ActionType = {
   type: string;
 }
 
-const INITIAL_STATE = { count: 0 };
+const INITIAL_STATE = { count: 100 };
 
 const reducer = (state = INITIAL_STATE, action: ActionType) => state;
 
