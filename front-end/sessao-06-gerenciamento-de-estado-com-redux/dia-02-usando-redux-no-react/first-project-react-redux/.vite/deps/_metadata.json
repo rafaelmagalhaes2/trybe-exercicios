@@ -1,0 +1,41 @@
+{
+  "hash": "1aa8f0a1",
+  "browserHash": "2d123ae1",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "b82582fb",
+      "needsInterop": true
+    },
+    "react-redux": {
+      "src": "../../node_modules/react-redux/es/index.js",
+      "file": "react-redux.js",
+      "fileHash": "a8b0c4e1",
+      "needsInterop": false
+    },
+    "redux": {
+      "src": "../../node_modules/redux/es/redux.js",
+      "file": "redux.js",
+      "fileHash": "c691e650",
+      "needsInterop": false
+    },
+    "@redux-devtools/extension": {
+      "src": "../../node_modules/@redux-devtools/extension/lib/esm/index.js",
+      "file": "@redux-devtools_extension.js",
+      "fileHash": "051fac98",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ZWHG73BD": {
+      "file": "chunk-ZWHG73BD.js"
+    },
+    "chunk-C7VVT7PN": {
+      "file": "chunk-C7VVT7PN.js"
+    },
+    "chunk-UXIASGQL": {
+      "file": "chunk-UXIASGQL.js"
+    }
+  }
+}
