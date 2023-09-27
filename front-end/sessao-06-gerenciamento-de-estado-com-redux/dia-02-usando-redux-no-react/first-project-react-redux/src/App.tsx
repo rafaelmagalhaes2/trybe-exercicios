@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { clickCounter, actionCreator } from './redux/actions/index';
 
 type RootState = {
+  clicks: number,
   count: number;
 };
 
