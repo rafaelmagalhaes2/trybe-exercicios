@@ -1,4 +1,5 @@
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { actionCreator } from './redux/actions';
 
 type RootState = {
   count: number;
@@ -6,13 +7,14 @@ type RootState = {
 
 function App() {
   const rootState = useSelector((state: RootState) => state);
+  const dispatch = useDispatch();
 
   return (
     <div>
-      <h1>{rootState.count}</h1>
-      <h2>0</h2>
-      <button>Incrementa 1</button>
-      <button>Incrementa 5</button>
+      <h1>Counter</h1>
+      <h2>{rootState.count}</h2>
+      <button onClick={ () => dispatch(actionCreator()) }>Incrementa 1</button>
+      <button onClick={ () => dispatch(actionCreator(5)) }>Incrementa 5</button>
     </div>
   );
 }
