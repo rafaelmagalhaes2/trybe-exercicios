@@ -1,4 +1,4 @@
-// ./src/redux/reducer/dogReducer.ts
+//
 import { REQUEST_STARTED, REQUEST_SUCCESSFUL, REQUEST_FAILED } from '../actions';
 
 const initialState = {
