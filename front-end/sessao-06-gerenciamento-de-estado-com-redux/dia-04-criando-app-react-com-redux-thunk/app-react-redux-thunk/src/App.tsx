@@ -16,9 +16,9 @@ function App() {
       >
         Novo Doguinho
       </button>
-      {
-        rootState.imageURL
-        && <img
+      
+      {rootState.imageURL && 
+        <img
           src={ rootState.imageURL }
           alt="Imagem de um cachorro aleatório"
         />
