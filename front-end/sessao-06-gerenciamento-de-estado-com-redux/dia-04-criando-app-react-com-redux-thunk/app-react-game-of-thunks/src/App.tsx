@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { fetchCharacter } from './redux/actions';
+import CharacterCard from './components/CharacterCard';
 import { Dispatch } from './types';
 
 import './App.css';
@@ -28,6 +29,7 @@ function App() {
       >
         Search
       </button>
+      <CharacterCard />
     </div>
   );
 }
