@@ -31,7 +31,7 @@ export function fetchDogImage() {
       const data = await response.json();
       dispatch(requestSuccessful(data.message));
     } catch (error: any) {
-      dispatch(requestFailed(error.message));
+      dispatch(requestFailed(error));
     }
   };
 }
