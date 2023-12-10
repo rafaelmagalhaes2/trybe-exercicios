@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <p className="Contrast-text"><b>🐋 Aprendendo Docker-compose - Trybe</b></p>
+      <p className="Contrast-text"><b>🐋 Aprendendo Docker-compose com Rafão - Trybe</b></p>
       {
         content?.length > 0 
         && content.map((item, index)=>(
